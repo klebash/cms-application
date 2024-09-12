@@ -6,7 +6,6 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
-import javax.crypto.SecretKey;
 import java.security.Key;
 import java.util.Date;
 import java.util.HashMap;
@@ -15,8 +14,6 @@ import java.util.function.Function;
 
 @Service
 public class JWTService {
-    @Value("${application.security.jwt.refresh-token.expiration}")
-    private long refreshExpiration;
     private Key getKey() {
         String SECRET_KEY = "5748b63dbff4637c0390be9cee6e421dee7f17ec5fa1da0dcd7cfea9e1e6cdc3";
         byte[] keyBytes = Decoders.BASE64.decode(SECRET_KEY);

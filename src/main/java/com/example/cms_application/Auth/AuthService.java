@@ -1,6 +1,5 @@
 package com.example.cms_application.Auth;
 
-import com.example.cms_application.config.ApplicationConfig;
 import com.example.cms_application.config.JWTService;
 import com.example.cms_application.model.User;
 import com.example.cms_application.repository.UserRepo;
