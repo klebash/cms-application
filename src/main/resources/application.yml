@@ -9,9 +9,3 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
-
-application:
-  security:
-    jwt:
-      refresh-token:
-        expiration: 604800000 # 7 days
