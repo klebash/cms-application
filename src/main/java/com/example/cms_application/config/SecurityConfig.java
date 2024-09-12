@@ -1,7 +1,4 @@
 package com.example.cms_application.config;
-
-import com.example.cms_application.repository.UserRepo;
-import jakarta.servlet.Filter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
