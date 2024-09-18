@@ -29,9 +29,8 @@ git clone https://github.com/klebash/cms-application.git
 
 ### 2. Create the Database
 
-Create a MySQL database with the name `cms_db`. You can run the following SQL query or use your preferred database management tool:
+Create a PostgreSQL database with the name `cms_db`. You can run the  SQL query or use your preferred database management tool:
 
-CREATE DATABASE cms_db;
 
 ### 3. Update Database Connection Details
 
