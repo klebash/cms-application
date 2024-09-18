@@ -88,4 +88,3 @@ The following are the key endpoints available in the API:
 
 - User Postman to test it : https://cms-api-challenge.postman.co/workspace/CMS-API-CHALLENGE-Workspace~f8d7c3ee-124f-4d00-a44b-3445f942c35d/collection/38024711-27dedf13-ba73-4d42-a43e-08cc1ee4c2af?action=share&creator=38024711
 
-Additional endpoints for managing images associated with articles will be added.
