@@ -7,19 +7,10 @@ spring:
   spring:
     docu:
       api-docs:
-        enabled: true
         path: "/v3/api-docs"
-        title: "Your API Title"
-        description: "Description of your API"
-        version: "1.0"
       swagger-ui:
-        enabled: true
         path: "/swagger-ui.html"
-        url: "/v3/api-docs"
         config-url: "/v3/api-docs/swagger-config"
-        operationsSorter: "alpha"
-        filter: true
-        tryItOutEnabled: true
 
 
   jpa:
