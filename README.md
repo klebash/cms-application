@@ -14,7 +14,7 @@ Before running the application, ensure you have the following installed:
 
 - Java 8 or higher
 - Maven
-- MySQL or another compatible relational database
+- PostrgeSQL or another compatible relational database
 - Git
 
 ## Getting Started
@@ -40,7 +40,7 @@ Example:
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/cms_db
+    url: jdbc:postgresql://localhost:5432/cms_db
     username: your_username
     password: your_password
   jpa:
